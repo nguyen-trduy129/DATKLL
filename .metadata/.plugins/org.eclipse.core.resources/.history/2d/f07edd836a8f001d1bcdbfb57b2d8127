@@ -118,10 +118,10 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  	  sendRun();
-//	  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, 1);
-//		HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
-//  	HAL_Delay(100);
+	  //	  sendRun();
+	  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, 1);
+//  	  HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
+  	  HAL_Delay(100);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
