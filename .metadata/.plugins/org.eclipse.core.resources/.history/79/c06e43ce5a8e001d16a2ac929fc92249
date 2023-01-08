@@ -1,0 +1,14 @@
+/*
+ * uart.h
+ *
+ *  Created on: Jan 7, 2023
+ *      Author: duyvt
+ */
+
+#ifndef INC_UART_H_
+#define INC_UART_H_
+
+#include "global.h"
+
+
+#endif /* INC_UART_H_ */

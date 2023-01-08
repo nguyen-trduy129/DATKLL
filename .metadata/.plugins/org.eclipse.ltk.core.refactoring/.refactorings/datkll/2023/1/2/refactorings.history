@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;datkll/Core/Src/input_file&apos; to &apos;input_file.c&apos;" description="Rename resource &apos;input_file&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/input_file" name="input_file.c" stamp="1673186372428" updateReferences="true"/>
+</session>

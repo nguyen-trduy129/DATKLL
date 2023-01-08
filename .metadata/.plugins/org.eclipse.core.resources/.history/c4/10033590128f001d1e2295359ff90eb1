@@ -1,0 +1,27 @@
+/*
+ * uart.c
+ *
+ *  Created on: Jan 7, 2023
+ *      Author: duyvt
+ */
+
+#include "uart.h"
+
+UART_HandleTypeDef huart2;
+
+uint8_t temp =0;
+int sendindex =0;
+char str = "Send Done!";
+
+void sendRun(){
+	if (sendindex != HEIGHT* WIDTH){
+		HAL_UART_Transmit(&huart2, (void*)image, 8, 10);
+		sendindex++;
+	}else{
+		HAL_UART_Transmit(&huart2, (void*)str, 11,  10);
+	}
+}
+
+
+
+
